@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .heading-container {
+    display: flex;
+  }
+  
+  .heading-title {
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .tab-body {
+    display: flex;
+    border: 1px solid black;
+    height: 200px;
+    padding: 5px;
+  }
+  
+  /* .bottom-button-container {
+  }
+  
+  .prev-button {
+  }
+  
+  .submit-button {
+  }
+  
+  .next-button {
+  } */
+  
+  .error-msg {
+    display: block;
+    font-size: small;
+    color: red;
+  }
+  
