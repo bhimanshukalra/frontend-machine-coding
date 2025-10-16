@@ -7,6 +7,8 @@ import ProgressBar from "./ProgressBar/ProgressBar";
 import { TabForm } from "./TabForm/TabForm";
 import OtpInput from "./OtpInput/OtpInput";
 import NestedCheckboxes from "./NestedCheckboxes/NestedCheckboxes";
+import ChipsInput from "./ChipsInput/ChipsInput";
+import ToDoList from "./ToDoList/ToDoList";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <FileExplorer /> */}
       {/* <ProgressBar /> */}
       {/* <OtpInput /> */}
-      <NestedCheckboxes />
+      {/* <NestedCheckboxes /> */}
+      {/* <ChipsInput /> */}
+      <ToDoList />
     </>
   );
 }
