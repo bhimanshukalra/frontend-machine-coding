@@ -9,6 +9,7 @@ import OtpInput from "./OtpInput/OtpInput";
 import NestedCheckboxes from "./NestedCheckboxes/NestedCheckboxes";
 import ChipsInput from "./ChipsInput/ChipsInput";
 import ToDoList from "./ToDoList/ToDoList";
+import Accordion from "./Accordion/Accordion";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <OtpInput /> */}
       {/* <NestedCheckboxes /> */}
       {/* <ChipsInput /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      <Accordion />
     </>
   );
 }
