@@ -6,6 +6,7 @@ import Pagination from "./Pagination/Pagination";
 import ProgressBar from "./ProgressBar/ProgressBar";
 import { TabForm } from "./TabForm/TabForm";
 import OtpInput from "./OtpInput/OtpInput";
+import NestedCheckboxes from "./NestedCheckboxes/NestedCheckboxes";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Pagination /> */}
       {/* <FileExplorer /> */}
       {/* <ProgressBar /> */}
-      <OtpInput />
+      {/* <OtpInput /> */}
+      <NestedCheckboxes />
     </>
   );
 }
