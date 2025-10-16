@@ -30,10 +30,7 @@ const ProgressBar = ({ progress }: ProgressBarProps) => {
         <span
           style={{
             position: "absolute",
-            right:
-              progress >= 40
-                ? 10
-                : -30 + progress,
+            right: progress >= 60 ? 20 : -40 + progress,
           }}
         >
           {progress}%

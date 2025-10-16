@@ -5,6 +5,7 @@ import FileExplorer from "./FileExplorer/FileExplorer";
 import Pagination from "./Pagination/Pagination";
 import ProgressBar from "./ProgressBar/ProgressBar";
 import { TabForm } from "./TabForm/TabForm";
+import OtpInput from "./OtpInput/OtpInput";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <TabForm /> */}
       {/* <Pagination /> */}
       {/* <FileExplorer /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <OtpInput />
     </>
   );
 }
