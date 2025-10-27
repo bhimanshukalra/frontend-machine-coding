@@ -10,6 +10,7 @@ import NestedCheckboxes from "./NestedCheckboxes/NestedCheckboxes";
 import ChipsInput from "./ChipsInput/ChipsInput";
 import ToDoList from "./ToDoList/ToDoList";
 import Accordion from "./Accordion/Accordion";
+import GoogleSheet from "./GoogleSheet/GoogleSheet";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <NestedCheckboxes /> */}
       {/* <ChipsInput /> */}
       {/* <ToDoList /> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      <GoogleSheet />
     </>
   );
 }
