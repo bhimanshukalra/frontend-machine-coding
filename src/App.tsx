@@ -11,6 +11,7 @@ import ChipsInput from "./ChipsInput/ChipsInput";
 import ToDoList from "./ToDoList/ToDoList";
 import Accordion from "./Accordion/Accordion";
 import GoogleSheet from "./GoogleSheet/GoogleSheet";
+import StarRating from "./StarRating/StarRating";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <ChipsInput /> */}
       {/* <ToDoList /> */}
       {/* <Accordion /> */}
-      <GoogleSheet />
+      {/* <GoogleSheet /> */}
+      <StarRating />
     </>
   );
 }
