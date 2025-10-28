@@ -12,6 +12,7 @@ import ToDoList from "./ToDoList/ToDoList";
 import Accordion from "./Accordion/Accordion";
 import GoogleSheet from "./GoogleSheet/GoogleSheet";
 import StarRating from "./StarRating/StarRating";
+import ToastContainer from "./Toast/ToastContainer";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <ToDoList /> */}
       {/* <Accordion /> */}
       {/* <GoogleSheet /> */}
-      <StarRating />
+      {/* <StarRating /> */}
+      <ToastContainer />
     </>
   );
 }
