@@ -13,6 +13,7 @@ import Accordion from "./Accordion/Accordion";
 import GoogleSheet from "./GoogleSheet/GoogleSheet";
 import StarRating from "./StarRating/StarRating";
 import ToastContainer from "./Toast/ToastContainer";
+import Carousel from "./Carousel/Carousel";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Accordion /> */}
       {/* <GoogleSheet /> */}
       {/* <StarRating /> */}
-      <ToastContainer />
+      {/* <ToastContainer /> */}
+      <Carousel />
     </>
   );
 }
