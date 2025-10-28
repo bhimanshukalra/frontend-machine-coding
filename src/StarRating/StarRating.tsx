@@ -2,40 +2,29 @@ import { useState } from "react";
 
 function StarRating() {
   const [rating, setRating] = useState(1);
-  const [hoverIndex, setHoverIndex] = useState(0);
+  const [hoverIndex, setHoverIndex] = useState(-1);
 
   return (
     <span>
-      {[1, 2, 3, 4, 5].map((item, index) => (
-        <span
-          key={item}
-          onMouseMove={(event) => {
-            setHoverIndex(
-              index +
-                Math.ceil(
-                  event.nativeEvent.offsetX / event.currentTarget.offsetWidth
-                )
-            );
-          }}
-          onMouseLeave={() => {
-            setHoverIndex(0);
-          }}
-          onClick={() => {
-            setRating(index);
-          }}
-          style={{
-            fontSize: 100,
-            color:
-              hoverIndex > 0 && index >= hoverIndex
-                ? "black"
-                : index <= rating || index < hoverIndex
-                ? "yellow"
-                : "black",
-          }}
-        >
-          ★
-        </span>
-      ))}
+      {Array(5)
+        .fill(0)
+        .map((item, index) => (
+          <span
+            key={index}
+            onMouseMove={() => setHoverIndex(index)}
+            onMouseLeave={() => setHoverIndex(-1)}
+            onClick={() => setRating(index)}
+            style={{
+              fontSize: 100,
+              color:
+                (hoverIndex < 0 && index <= rating) || index <= hoverIndex
+                  ? "yellow"
+                  : "black",
+            }}
+          >
+            ★
+          </span>
+        ))}
     </span>
   );
 }
