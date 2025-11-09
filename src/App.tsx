@@ -15,6 +15,7 @@ import StarRating from "./StarRating/StarRating";
 import ToastContainer from "./Toast/ToastContainer";
 import Carousel from "./Carousel/Carousel";
 import CountDownTimer from "./CountDownTimer/CountDownTimer";
+import InteractiveGrid from "./InteractiveGrid/InteractiveGrid";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <StarRating /> */}
       {/* <ToastContainer /> */}
       {/* <Carousel /> */}
-      <CountDownTimer />
+      {/* <CountDownTimer /> */}
+      <InteractiveGrid />
     </>
   );
 }

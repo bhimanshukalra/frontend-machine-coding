@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  width: 16rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.cell {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid black;
+}
+
+.activeCell {
+  background: aqua;
+}
+
+.inActiveCell {
+  width: 5rem;
+  height: 5rem;
+}
