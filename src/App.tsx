@@ -14,6 +14,7 @@ import GoogleSheet from "./GoogleSheet/GoogleSheet";
 import StarRating from "./StarRating/StarRating";
 import ToastContainer from "./Toast/ToastContainer";
 import Carousel from "./Carousel/Carousel";
+import CountDownTimer from "./CountDownTimer/CountDownTimer";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <GoogleSheet /> */}
       {/* <StarRating /> */}
       {/* <ToastContainer /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <CountDownTimer />
     </>
   );
 }
