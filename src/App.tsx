@@ -18,6 +18,7 @@ import CountDownTimer from "./CountDownTimer/CountDownTimer";
 import InteractiveGrid from "./InteractiveGrid/InteractiveGrid";
 import TicTacToe from "./TicTacToe/TicTacToe";
 import SnakeGame from "./SnakeGame/SnakeGame";
+import VirtualizedListContainer from "./VirtualizedList/VirtualizedList";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <CountDownTimer /> */}
       {/* <InteractiveGrid /> */}
       {/* <TicTacToe size={5} /> */}
-      <SnakeGame />
+      {/* <SnakeGame /> */}
+      <VirtualizedListContainer />
     </>
   );
 }
