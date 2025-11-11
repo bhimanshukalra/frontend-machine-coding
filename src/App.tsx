@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { StrictMode, useEffect, useState } from "react";
 import "./App.css";
 import { AutoCompleteSearchBar } from "./AutoCompleteSearchBar/AutoCompleteSearchBar";
 import FileExplorer from "./FileExplorer/FileExplorer";
@@ -17,6 +17,7 @@ import Carousel from "./Carousel/Carousel";
 import CountDownTimer from "./CountDownTimer/CountDownTimer";
 import InteractiveGrid from "./InteractiveGrid/InteractiveGrid";
 import TicTacToe from "./TicTacToe/TicTacToe";
+import SnakeGame from "./SnakeGame/SnakeGame";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <Carousel /> */}
       {/* <CountDownTimer /> */}
       {/* <InteractiveGrid /> */}
-      <TicTacToe size={5} />
+      {/* <TicTacToe size={5} /> */}
+      <SnakeGame />
     </>
   );
 }
