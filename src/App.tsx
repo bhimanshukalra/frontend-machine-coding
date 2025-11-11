@@ -19,6 +19,7 @@ import InteractiveGrid from "./InteractiveGrid/InteractiveGrid";
 import TicTacToe from "./TicTacToe/TicTacToe";
 import SnakeGame from "./SnakeGame/SnakeGame";
 import VirtualizedListContainer from "./VirtualizedList/VirtualizedList";
+import MemoryGame from "./MemoryGame/MemoryGame";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <InteractiveGrid /> */}
       {/* <TicTacToe size={5} /> */}
       {/* <SnakeGame /> */}
-      <VirtualizedListContainer />
+      {/* <VirtualizedListContainer /> */}
+      <MemoryGame />
     </>
   );
 }
