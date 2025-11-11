@@ -16,6 +16,7 @@ import ToastContainer from "./Toast/ToastContainer";
 import Carousel from "./Carousel/Carousel";
 import CountDownTimer from "./CountDownTimer/CountDownTimer";
 import InteractiveGrid from "./InteractiveGrid/InteractiveGrid";
+import TicTacToe from "./TicTacToe/TicTacToe";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <ToastContainer /> */}
       {/* <Carousel /> */}
       {/* <CountDownTimer /> */}
-      <InteractiveGrid />
+      {/* <InteractiveGrid /> */}
+      <TicTacToe size={5} />
     </>
   );
 }
